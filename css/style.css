@@ -19,6 +19,10 @@ body{
 	font-family: 'OpenSans-Light';
     src: url('../fonts/OpenSans-Light.ttf') format('truetype') 
 }
+@font-face{
+	font-family: 'OpenSans-Regular';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype') 
+}
 ol, ul {list-style: none;}
 *{
 	margin: 0;
@@ -125,4 +129,74 @@ visibility: hidden;
 	text-align: center;
 	margin-left: 80px;
 	margin-top: 50px;
+}
+.navarrows{
+	width: 35px;
+	height: 35px;
+	margin: 160px 0;
+}
+.leftarrow{
+	float: left;
+	background: url(../img/rightarrowblack.png) no-repeat;
+	
+}
+.leftarrow:hover{
+	background: url(../img/rightarrowwhite.png) no-repeat;
+}
+.rightarrow{
+	float: right;
+	background: url(../img/leftarrowblack.png) no-repeat;
+}
+.rightarrow:hover{
+	background: url(../img/leftarrowwhite.png) no-repeat;
+}
+.advantages>.intertitle{
+	font: 25px bold 'OpenSans-Bold', sans-serif;
+}
+.advantages>.descr{
+	font: 14px  'OpenSans-Regular', sans-serif;
+	color: #5c5c5c; 
+	text-align: center;
+	margin-top: 30px;
+}
+.circle{
+	font-size: 0;
+	margin-top: 50px;
+	display: inline-block;
+	margin-left: 80px;
+	width: 100px;
+    height: 100px;
+    background: #ececec;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+.circle1{
+	background: url(../img/ecl1.png);
+}
+.circle1:hover{
+	background: url(../img/hoverecl1.png);
+}
+.circle2{
+	background: url(../img/ecl2.png);
+}
+
+.circle2:hover{
+	background: url(../img/hoverecl2.png);
+}
+.circle3{
+	background: url(../img/ecl3.png);
+}
+.circle3:hover{
+	background: url(../img/hoverecl3.png);
+}
+.circle4{
+	background: url(../img/ecl4.png);
+}
+.circle4:hover{
+	background: url(../img/hoverecl4.png);
+}
+.circle>.descr{
+	font-size: 16px;
+	padding-top: 50px;
 }
