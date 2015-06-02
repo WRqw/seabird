@@ -34,13 +34,14 @@ a, a:visited {
 	text-decoration:none;
 	background-image: url(/assets/course14/social.png);
 }
-.clearfix:before;
+.clearfix:before,
 .clearfix:after {
 
      content: ".";
      display: table;
 }
-.clearfix:after {content: ".";
+.clearfix:after {
+content: ".";
 display: block;
 height: 0;
 clear: both;
@@ -50,12 +51,17 @@ visibility: hidden;
 
 
 #wrapper {
-	width: 950px;
+	width: 1050px;
 	height: auto;
 	overflow: auto;
 	margin: 0 auto;
 	padding: 10px;
+	background: #red;
 
+}
+.content{
+	width: 950px;
+	margin: 0 auto;
 }
 .logo span{
 	font-family:  'Lato-Black', sans-serif;
@@ -159,44 +165,73 @@ visibility: hidden;
 	text-align: center;
 	margin-top: 30px;
 }
-.circle{
-	font-size: 0;
+.iconses .content{
+	text-align: center;
+	margin: auto;
+}
+.cont{
+	margin: auto;
 	margin-top: 50px;
+	margin-left: 90px;
 	display: inline-block;
-	margin-left: 80px;
+	width: 140px;
+	height: 160px;
+	
+}
+.circle{
+	margin: auto;
 	width: 100px;
     height: 100px;
     background: #ececec;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
+    margin-bottom: 30px;
 }
 .circle1{
-	background: url(../img/ecl1.png);
+	background: url(../img/ecl1.png) no-repeat;
 }
 .circle1:hover{
-	background: url(../img/hoverecl1.png);
+	background: url(../img/hoverecl1.png) no-repeat;
+	font: #75cec2;
 }
 .circle2{
-	background: url(../img/ecl2.png);
+	background: url(../img/ecl2.png) no-repeat;
 }
 
 .circle2:hover{
-	background: url(../img/hoverecl2.png);
+	background: url(../img/hoverecl2.png) no-repeat;
 }
 .circle3{
-	background: url(../img/ecl3.png);
+	background: url(../img/ecl3.png) no-repeat;
 }
 .circle3:hover{
-	background: url(../img/hoverecl3.png);
+	background: url(../img/hoverecl3.png) no-repeat;
 }
 .circle4{
-	background: url(../img/ecl4.png);
+	background: url(../img/ecl4.png) no-repeat;
 }
 .circle4:hover{
-	background: url(../img/hoverecl4.png);
+	background: url(../img/hoverecl4.png) no-repeat;
 }
-.circle>.descr{
-	font-size: 16px;
-	padding-top: 50px;
+.descri{
+	text-align: center;
+	font: 16px 'OpenSans-Bold', sans-serif;
+	color: #5c5c5c;
+}
+.hover:hover{
+	color: #75cec2;
+}
+.middlecon>.intertitle{
+	margin: 30px;
+	float: left;
+	font: 16px 'OpenSans-Bold', sans-serif;;
+}
+.columns{
+	margin-top: 300px;
+	background: red;
+	width: 300px;
+	height: 222px;
+	float: left;
+	
 }
