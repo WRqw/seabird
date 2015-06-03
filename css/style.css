@@ -1,38 +1,41 @@
-
-	
-body{
-	background: #fff;
-	padding: 0;
-	margin: 0;
-	list-style: none;
+body {
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
-@font-face{
-	font-family: 'Lato-Black';
-    src: url('../fonts/Lato-Black.ttf') format('truetype')        
+@font-face {
+    font-family: 'Lato-Black';
+    src: url('../fonts/Lato-Black.ttf') format('truetype')
 }
-@font-face{
-	font-family: 'OpenSans-Bold';
-    src: url('../fonts/OpenSans-Bold.ttf') format('truetype')        
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype')
 }
-@font-face{
-	font-family: 'OpenSans-Light';
+
+@font-face {
+    font-family: 'OpenSans-Light';
     src: url('../fonts/OpenSans-Light.ttf') format('truetype') 
 }
-@font-face{
-	font-family: 'OpenSans-Regular';
+
+@font-face {
+    font-family: 'OpenSans-Regular';
     src: url('../fonts/OpenSans-Regular.ttf') format('truetype') 
 }
+
 ol, ul {list-style: none;}
 *{
-	margin: 0;
-	padding: 0;
-	outline: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
 }
+
 a, a:visited {
-	color: #d0d0d0;
-	text-decoration:none;
-	background-image: url(/assets/course14/social.png);
+    color: #d0d0d0;
+    text-decoration:none;
+    background-image: url(/assets/course14/social.png);
 }
 .clearfix:before,
 .clearfix:after {
@@ -51,136 +54,138 @@ visibility: hidden;
 
 
 #wrapper {
-	width: 1050px;
-	height: auto;
-	overflow: auto;
-	margin: 0 auto;
-	padding: 10px;
-	background: #red;
+    width: 1050px;
+    height: auto;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 10px;
+    background: #red;
 
 }
-.content{
-	width: 950px;
-	margin: 0 auto;
+.content {
+    width: 950px;
+    margin: 0 auto;
 }
-.logo span{
-	font-family:  'Lato-Black', sans-serif;
-	font-size: 35px;
-	color: #5b5b5b;
+.logo span {
+    font-family:  'Lato-Black', sans-serif;
+    font-size: 35px;
+    color: #5b5b5b;
 }
 .logo {
-	margin-top: 30px;
+    margin-top: 30px;
 }
-.nav{
-	margin-top: 40px;
-	color: #393939;
-	background-color: #393939; 
+.nav {
+    margin-top: 40px;
+    color: #393939;
+    background-color: #393939; 
 }
-.menu li{
-	float: left;
-	padding: 20px 35px;
-	color: #d0d0d0;
-	font-family: 'OpenSans-Bold';
+.menu {
+    display: inline;
 }
-.nav:after{
-	content: "";
+.menu li {
+    display: inline-block;
+    padding: 20px 35px;
+    color: #d0d0d0;
+    font-family: 'OpenSans-Bold';
+    border-right: 1px solid white;
+}
+.nav:after {
+    content: "";
       clear: both;
       display: block;
 
 }
-.icons{
-	text-align: right;
+.icons {
+    float: right;
+    display: inline-block;
 }
 
-.ic{
-	display:inline-block;
-	width: 12px;
-	height: 12px;
-	background: url("../img/sprite.png") no-repeat;
-	margin-right: 15px;	
-	vertical-align: center;
-	margin-top: 25px;
-	text-align: right;
+.ic {
+    display:inline-block;
+    width: 12px;
+    height: 12px;
+    background: url("../img/sprite.png") no-repeat;
+    margin-right: 15px;    
+    vertical-align: middle;
+    margin-top: 25px;
+    text-align: right;
 }
 .rss {
-	background-position: 0 0;
+    background-position: 0 0;
 }
 .fb {
-	background-position: -20px 0;
+    background-position: -20px 0;
 }
 .tw {
-	background-position: -40px 0;
+    background-position: -40px 0;
 }
-.content{
-	
+.content {
+    
 }
-.intertitle{
-	margin-top: 50px;
-	font: 35px bold 'OpenSans-Bold', sans-serif;
-	color: #5c5c5c;
-	text-align: center;
+.intertitle {
+    margin-top: 50px;
+    font: 35px bold 'OpenSans-Bold', sans-serif;
+    color: #5c5c5c;
+    text-align: center;
 
 }
-.menu li{
-	border-right: 1px solid white;
-}
-.descr{
-	font: 25px  'OpenSans-Light', sans-serif;
-	color: #5c5c5c;
-	text-align: center;
-	margin-top: 30px;
+.descr {
+    font: 25px  'OpenSans-Light', sans-serif;
+    color: #5c5c5c;
+    text-align: center;
+    margin-top: 30px;
 
 }
-.displayimg{
-	text-align: center;
-	margin-left: 80px;
-	margin-top: 50px;
+.displayimg {
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 50px;
 }
-.navarrows{
-	width: 35px;
-	height: 35px;
-	margin: 160px 0;
+.navarrows {
+    width: 35px;
+    height: 35px;
+    margin: 160px 0;
 }
-.leftarrow{
-	float: left;
-	background: url(../img/rightarrowblack.png) no-repeat;
-	
+.leftarrow {
+    float: left;
+    background: url(../img/rightarrowblack.png) no-repeat;
+    
 }
-.leftarrow:hover{
-	background: url(../img/rightarrowwhite.png) no-repeat;
+.leftarrow:hover {
+    background: url(../img/rightarrowwhite.png) no-repeat;
 }
-.rightarrow{
-	float: right;
-	background: url(../img/leftarrowblack.png) no-repeat;
+.rightarrow {
+    float: right;
+    background: url(../img/leftarrowblack.png) no-repeat;
 }
-.rightarrow:hover{
-	background: url(../img/leftarrowwhite.png) no-repeat;
+.rightarrow:hover {
+    background: url(../img/leftarrowwhite.png) no-repeat;
 }
-.advantages>.intertitle{
-	font: 25px bold 'OpenSans-Bold', sans-serif;
+.advantages > .intertitle {
+    font: 25px bold 'OpenSans-Bold', sans-serif;
 }
-.advantages>.descr{
-	font: 14px  'OpenSans-Regular', sans-serif;
-	color: #5c5c5c; 
-	text-align: center;
-	margin-top: 30px;
+.advantages > .descr {
+    font: 14px  'OpenSans-Regular', sans-serif;
+    color: #5c5c5c; 
+    text-align: center;
+    margin-top: 30px;
 }
-.iconses .content{
-	text-align: center;
-	margin: auto;
+.iconses .content {
+    text-align: center;
+    margin: auto;
 }
-.cont{
-	margin: auto;
-	margin-top: 50px;
-	margin-left: 90px;
-	display: inline-block;
-	width: 140px;
-	height: 160px;
-	
+.cont {
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 90px;
+    display: inline-block;
+    width: 140px;
+    height: 160px;
+    
 }
-.circle{
-	margin: auto;
-	width: 100px;
+.circle {
+    margin: auto;
+    width: 100px;
     height: 100px;
     background: #ececec;
     -moz-border-radius: 50px;
@@ -188,50 +193,50 @@ visibility: hidden;
     border-radius: 50px;
     margin-bottom: 30px;
 }
-.circle1{
-	background: url(../img/ecl1.png) no-repeat;
+.circle1 {
+    background: url(../img/ecl1.png) no-repeat;
 }
-.circle1:hover{
-	background: url(../img/hoverecl1.png) no-repeat;
-	font: #75cec2;
+.circle1:hover {
+    background: url(../img/hoverecl1.png) no-repeat;
+    font: #75cec2;
 }
-.circle2{
-	background: url(../img/ecl2.png) no-repeat;
+.circle2 {
+    background: url(../img/ecl2.png) no-repeat;
 }
 
-.circle2:hover{
-	background: url(../img/hoverecl2.png) no-repeat;
+.circle2:hover {
+    background: url(../img/hoverecl2.png) no-repeat;
 }
-.circle3{
-	background: url(../img/ecl3.png) no-repeat;
+.circle3 {
+    background: url(../img/ecl3.png) no-repeat;
 }
-.circle3:hover{
-	background: url(../img/hoverecl3.png) no-repeat;
+.circle3:hover {
+    background: url(../img/hoverecl3.png) no-repeat;
 }
-.circle4{
-	background: url(../img/ecl4.png) no-repeat;
+.circle4 {
+    background: url(../img/ecl4.png) no-repeat;
 }
-.circle4:hover{
-	background: url(../img/hoverecl4.png) no-repeat;
+.circle4:hover {
+    background: url(../img/hoverecl4.png) no-repeat;
 }
-.descri{
-	text-align: center;
-	font: 16px 'OpenSans-Bold', sans-serif;
-	color: #5c5c5c;
+.descri {
+    text-align: center;
+    font: 16px 'OpenSans-Bold', sans-serif;
+    color: #5c5c5c;
 }
-.hover:hover{
-	color: #75cec2;
+.hover:hover {
+    color: #75cec2;
 }
-.middlecon>.intertitle{
-	margin: 30px;
-	float: left;
-	font: 16px 'OpenSans-Bold', sans-serif;;
+.middlecon > .intertitle {
+    margin: 30px;
+    float: left;
+    font: 16px 'OpenSans-Bold', sans-serif;;
 }
-.columns{
-	margin-top: 300px;
-	background: red;
-	width: 300px;
-	height: 222px;
-	float: left;
-	
+.columns {
+    margin-top: 300px;
+    background: red;
+    width: 300px;
+    height: 222px;
+    float: left;
+    
 }
