@@ -1,4 +1,4 @@
-
+* {box-sizing: border-box}
 	
 body{
 	background: #fff;
@@ -23,6 +23,7 @@ body{
 	font-family: 'OpenSans-Regular';
     src: url('../fonts/OpenSans-Regular.ttf') format('truetype') 
 }
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 ol, ul {list-style: none;}
 *{
 	margin: 0;
@@ -50,13 +51,13 @@ visibility: hidden;
 
 
 
+
 #wrapper {
 	width: 1050px;
 	height: auto;
 	overflow: auto;
 	margin: 0 auto;
 	padding: 10px;
-	background: #red;
 
 }
 .content{
@@ -165,73 +166,156 @@ visibility: hidden;
 	text-align: center;
 	margin-top: 30px;
 }
-.iconses .content{
+.iconses{
+	margin-top: 40px;
 	text-align: center;
-	margin: auto;
+}
+.iconses img, span{
+	text-align: center;
+}
+.contspan{
+	margin-top: 15px;
+}
+.iconses .content{
+	
+
 }
 .cont{
-	margin: auto;
-	margin-top: 50px;
-	margin-left: 90px;
-	display: inline-block;
-	width: 140px;
-	height: 160px;
-	
+	float: left;
+	text-align: center;
+	}
+
+.cont span{
+	font: 16px  'OpenSans-Bold', sans-serif;
+	color: #5c5c5c; 
 }
-.circle{
-	margin: auto;
-	width: 100px;
-    height: 100px;
-    background: #ececec;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    margin-bottom: 30px;
+.cont1{
+	margin-right: 120px;
+	margin-left: 55px;
 }
-.circle1{
-	background: url(../img/ecl1.png) no-repeat;
+.cont2{
+	margin-right: 120px;
 }
-.circle1:hover{
-	background: url(../img/hoverecl1.png) no-repeat;
-	font: #75cec2;
-}
-.circle2{
-	background: url(../img/ecl2.png) no-repeat;
+.cont3{
+	margin-right: 120px;
 }
 
-.circle2:hover{
-	background: url(../img/hoverecl2.png) no-repeat;
+.contimg1{
+	width: 125px;
+	height: 105px;
+	background: url("../img/ecl1.png") no-repeat;
+	background-position: center;
 }
-.circle3{
-	background: url(../img/ecl3.png) no-repeat;
+.contimg1:hover{
+	width: 125px;
+	height: 105px;
+	background: url("../img/hoverecl1.png") no-repeat;
+	background-position: center;
 }
-.circle3:hover{
-	background: url(../img/hoverecl3.png) no-repeat;
+.contimg2{
+	width: 125px;
+	height: 105px;
+	background: url("../img/ecl2.png") no-repeat;
+	background-position: center;
 }
-.circle4{
-	background: url(../img/ecl4.png) no-repeat;
+.contimg2:hover{
+	width: 125px;
+	height: 105px;
+	background: url("../img/hoverecl2.png") no-repeat;
+	background-position: center;
 }
-.circle4:hover{
-	background: url(../img/hoverecl4.png) no-repeat;
+.contimg3{
+	width: 105px;
+	height: 105px;
+	background: url("../img/ecl3.png") no-repeat;
+	background-position: center;
 }
-.descri{
+.contimg3:hover{
+	background: url("../img/hoverecl3.png")no-repeat;
+	background-position: center;
+}
+
+.contimg4{
+	width: 105px;
+	height: 105px;
+	background: url("../img/ecl4.png") no-repeat;
+	background-position: center;
+}
+.contimg4:hover{
+
+	background: url("../img/hoverecl4.png") no-repeat;
+	background-position: center;
+}
+}
+.contspan{
 	text-align: center;
+	width: 125px;
+}
+span:hover{
+	color: #5c5c5c !important;
+}
+.cont:hover span{
+	color: #75cec2;  
+}
+
+
+
+.outtitle{
+	text-transform: uppercase;
+	text-align: left;
 	font: 16px 'OpenSans-Bold', sans-serif;
+	margin-bottom: 30px;
 	color: #5c5c5c;
-}
-.hover:hover{
-	color: #75cec2;
-}
-.middlecon>.intertitle{
-	margin: 30px;
-	float: left;
-	font: 16px 'OpenSans-Bold', sans-serif;;
+	margin-top: 100px;
 }
 .columns{
-	margin-top: 300px;
-	background: red;
-	width: 300px;
-	height: 222px;
-	float: left;
-	
+ 	 background: url("../img/backgroundlist.png") repeat-y;
+ 	 overflow: hidden;
+ 	 margin: 0 auto;
+ 	 height: 200px;
 }
+.columns1{
+	width: 300px;
+	float: left;
+
+}
+.columns2{
+	margin-left: 25px;
+	width: 300px;
+	float: left;
+
+}
+.columns3{
+	width: 300px;
+	float: right;
+
+}
+.columns-bottom{
+	margin-top: 20px;
+}
+.bottitle{
+	font: 16px 'OpenSans-Bold', sans-serif;
+	color: #5c5c5c;
+	margin-bottom;
+	margin-bottom: 15px;
+}
+.podzagolovok{
+	font: 13px 'OpenSans', sans-serif;
+	color: #75cec2;
+}
+.bottomcontent{
+	margin-top: 28px;
+	font: 14px 'OpenSans', sans-serif;
+	color: #5c5c5c;
+	line-height: 28px;
+	padding-bottom: 50px;
+}
+#footer{
+	width: 1050px;
+	background-color: #393939;
+	height: auto;
+	overflow: auto;
+	margin: 0 auto;
+
+}
+
