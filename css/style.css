@@ -161,7 +161,7 @@ visibility: hidden;
 	font: 25px bold 'OpenSans-Bold', sans-serif;
 }
 .advantages>.descr{
-	font: 14px  'OpenSans-Regular', sans-serif;
+	font: 14px/28px  'OpenSans-Regular', sans-serif;
 	color: #5c5c5c; 
 	text-align: center;
 	margin-top: 30px;
@@ -251,7 +251,7 @@ visibility: hidden;
 	text-align: center;
 	width: 125px;
 }
-span:hover{
+.contspan span:hover{
 	color: #5c5c5c !important;
 }
 .cont:hover span{
@@ -316,6 +316,38 @@ span:hover{
 	height: auto;
 	overflow: auto;
 	margin: 0 auto;
-
 }
-
+.firstcolumn{
+	width: 300px;
+	float: left;
+}
+.twelvecolumn{
+	margin-left: 25px;
+	width: 300px;
+	float: left;
+}
+.thirdcolumn{
+	width: 300px;
+	float:right;
+}
+#footer h5{
+	font: 16px 'OpenSans-Bold', sans-serif;
+	color: white;
+	text-transform: uppercase;
+}
+.topsection{
+	margin-top: 60px;
+	font: 14px/24px 'OpenSans', sans-serif;
+	color: #b4b4b4;
+}
+.contacts>p{
+	margin-top: 13px;
+	margin-left: 15px;
+}
+.topsection p{
+	margin-top: 25px;
+	margin-bottom: 35px;
+}
+.contic{
+	float: left;
+}
