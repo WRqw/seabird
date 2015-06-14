@@ -77,8 +77,11 @@ visibility: hidden;
 	color: #393939;
 	background-color: #393939; 
 }
+.menu {
+    display: inline;
+}
 .menu li{
-	float: left;
+	display: inline-block;
 	padding: 20px 35px;
 	color: #d0d0d0;
 	font-family: 'OpenSans-Bold';
@@ -90,16 +93,17 @@ visibility: hidden;
 
 }
 .icons{
-	text-align: right;
-}
-
+  	 text-align: right;
+ 	 float: right;  
+     display: inline-block;
+ }
 .ic{
 	display:inline-block;
 	width: 12px;
 	height: 12px;
 	background: url("../img/sprite.png") no-repeat;
 	margin-right: 15px;	
-	vertical-align: center;
+	vertical-align: middle;
 	margin-top: 25px;
 	text-align: right;
 }
@@ -123,7 +127,8 @@ visibility: hidden;
 
 }
 .menu li{
-	border-right: 1px solid white;
+	border-right: 1px solid #464646;
+	
 }
 .descr{
 	font: 25px  'OpenSans-Light', sans-serif;
@@ -175,10 +180,6 @@ visibility: hidden;
 }
 .contspan{
 	margin-top: 15px;
-}
-.iconses .content{
-	
-
 }
 .cont{
 	float: left;
@@ -257,9 +258,6 @@ visibility: hidden;
 .cont:hover span{
 	color: #75cec2;  
 }
-
-
-
 .outtitle{
 	text-transform: uppercase;
 	text-align: left;
@@ -299,7 +297,7 @@ visibility: hidden;
 	margin-bottom;
 	margin-bottom: 15px;
 }
-.podzagolovok{
+.subtitle{
 	font: 13px 'OpenSans', sans-serif;
 	color: #75cec2;
 }
@@ -350,4 +348,67 @@ visibility: hidden;
 }
 .contic{
 	float: left;
+}
+.place img{
+ 	margin-top: 5px;
+}
+.place span{
+	margin-left: 10px;
+}
+.phone img{
+ margin-top: 5px;
+}
+.phone span{
+	margin-left: 10px;
+	
+}
+.mail img{
+ margin-top: 8px;
+}
+.mail span{
+	margin-left: 10px;
+}
+.contacts .place p{
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 20px;
+	text-align:left;
+}
+.place{
+	height: 52px;
+}
+.firstcolumn{
+	padding-right: 30px;
+}
+.twelvecolumn{
+	padding-right: 35px;
+}
+.thirdcolumn{
+	padding-right: 40px;
+}
+.thirdcolumn p{
+	margin: 0;
+	margin-top: 20px;
+}
+.date{
+	margin-top: 0;
+}
+
+time{
+	 font: 12px 'OpenSans', sans-serif;
+	 color: #7b7b7b;
+}
+.botsection{
+	width: 1050px;
+	height: auto;
+	overflow: auto;
+	margin: 0 auto;
+	padding: 10px;
+	background: #333333;
+}
+.botsection p{
+	padding: 33px 0;
+	font: 14px 'OpenSans', sans-serif;
+	color: #d2d2d2;
+
 }
