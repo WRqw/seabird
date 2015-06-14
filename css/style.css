@@ -1,6 +1,6 @@
 * {box-sizing: border-box}
 	
-body{
+body {
 	background: #fff;
 	padding: 0;
 	margin: 0;
@@ -11,7 +11,7 @@ body{
 	font-family: 'Lato-Black';
     src: url('../fonts/Lato-Black.ttf') format('truetype')        
 }
-@font-face{
+@font-face {
 	font-family: 'OpenSans-Bold';
     src: url('../fonts/OpenSans-Bold.ttf') format('truetype')        
 }
@@ -19,13 +19,13 @@ body{
 	font-family: 'OpenSans-Light';
     src: url('../fonts/OpenSans-Light.ttf') format('truetype') 
 }
-@font-face{
+@font-face {
 	font-family: 'OpenSans-Regular';
     src: url('../fonts/OpenSans-Regular.ttf') format('truetype') 
 }
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 ol, ul {list-style: none;}
-*{
+* {
 	margin: 0;
 	padding: 0;
 	outline: none;
@@ -42,11 +42,11 @@ a, a:visited {
      display: table;
 }
 .clearfix:after {
-content: ".";
-display: block;
-height: 0;
-clear: both;
-visibility: hidden;
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
 }
 
 
@@ -60,11 +60,11 @@ visibility: hidden;
 	padding: 10px;
 
 }
-.content{
+.content {
 	width: 950px;
 	margin: 0 auto;
 }
-.logo span{
+.logo span {
 	font-family:  'Lato-Black', sans-serif;
 	font-size: 35px;
 	color: #5b5b5b;
@@ -72,7 +72,7 @@ visibility: hidden;
 .logo {
 	margin-top: 30px;
 }
-.nav{
+.nav {
 	margin-top: 40px;
 	color: #393939;
 	background-color: #393939; 
@@ -80,24 +80,24 @@ visibility: hidden;
 .menu {
     display: inline;
 }
-.menu li{
+.menu li {
 	display: inline-block;
 	padding: 20px 35px;
 	color: #d0d0d0;
 	font-family: 'OpenSans-Bold';
 }
-.nav:after{
+.nav:after {
 	content: "";
       clear: both;
       display: block;
 
 }
-.icons{
+.icons {
   	 text-align: right;
  	 float: right;  
      display: inline-block;
  }
-.ic{
+.ic {
 	display:inline-block;
 	width: 12px;
 	height: 12px;
@@ -137,128 +137,128 @@ visibility: hidden;
 	margin-top: 30px;
 
 }
-.displayimg{
+.displayimg {
 	text-align: center;
 	margin-left: 80px;
 	margin-top: 50px;
 }
-.navarrows{
+.navarrows {
 	width: 35px;
 	height: 35px;
 	margin: 160px 0;
 }
-.leftarrow{
+.leftarrow {
 	float: left;
 	background: url(../img/rightarrowblack.png) no-repeat;
 	
 }
-.leftarrow:hover{
+.leftarrow:hover {
 	background: url(../img/rightarrowwhite.png) no-repeat;
 }
-.rightarrow{
+.rightarrow {
 	float: right;
 	background: url(../img/leftarrowblack.png) no-repeat;
 }
-.rightarrow:hover{
+.rightarrow:hover {
 	background: url(../img/leftarrowwhite.png) no-repeat;
 }
-.advantages>.intertitle{
+.advantages>.intertitle {
 	font: 25px bold 'OpenSans-Bold', sans-serif;
 }
-.advantages>.descr{
+.advantages>.descr {
 	font: 14px/28px  'OpenSans-Regular', sans-serif;
 	color: #5c5c5c; 
 	text-align: center;
 	margin-top: 30px;
 }
-.iconses{
+.iconses {
 	margin-top: 40px;
 	text-align: center;
 }
-.iconses img, span{
+.iconses img, span {
 	text-align: center;
 }
-.contspan{
+.contspan {
 	margin-top: 15px;
 }
-.cont{
+.cont {
 	float: left;
 	text-align: center;
 	}
 
-.cont span{
+.cont span {
 	font: 16px  'OpenSans-Bold', sans-serif;
 	color: #5c5c5c; 
 }
-.cont1{
+.cont1 {
 	margin-right: 120px;
 	margin-left: 55px;
 }
-.cont2{
+.cont2 {
 	margin-right: 120px;
 }
-.cont3{
+.cont3 {
 	margin-right: 120px;
 }
 
-.contimg1{
+.contimg1 {
 	width: 125px;
 	height: 105px;
 	background: url("../img/ecl1.png") no-repeat;
 	background-position: center;
 }
-.contimg1:hover{
+.contimg1:hover {
 	width: 125px;
 	height: 105px;
 	background: url("../img/hoverecl1.png") no-repeat;
 	background-position: center;
 }
-.contimg2{
+.contimg2 {
 	width: 125px;
 	height: 105px;
 	background: url("../img/ecl2.png") no-repeat;
 	background-position: center;
 }
-.contimg2:hover{
+.contimg2:hover {
 	width: 125px;
 	height: 105px;
 	background: url("../img/hoverecl2.png") no-repeat;
 	background-position: center;
 }
-.contimg3{
+.contimg3 {
 	width: 105px;
 	height: 105px;
 	background: url("../img/ecl3.png") no-repeat;
 	background-position: center;
 }
-.contimg3:hover{
+.contimg3:hover {
 	background: url("../img/hoverecl3.png")no-repeat;
 	background-position: center;
 }
 
-.contimg4{
+.contimg4 {
 	width: 105px;
 	height: 105px;
 	background: url("../img/ecl4.png") no-repeat;
 	background-position: center;
 }
-.contimg4:hover{
+.contimg4:hover {
 
 	background: url("../img/hoverecl4.png") no-repeat;
 	background-position: center;
 }
 }
-.contspan{
+.contspan {
 	text-align: center;
 	width: 125px;
 }
-.contspan span:hover{
+.contspan span:hover {
 	color: #5c5c5c !important;
 }
-.cont:hover span{
+.cont:hover span {
 	color: #75cec2;  
 }
-.outtitle{
+.outtitle {
 	text-transform: uppercase;
 	text-align: left;
 	font: 16px 'OpenSans-Bold', sans-serif;
@@ -266,139 +266,139 @@ visibility: hidden;
 	color: #5c5c5c;
 	margin-top: 100px;
 }
-.columns{
+.columns {
  	 background: url("../img/backgroundlist.png") repeat-y;
  	 overflow: hidden;
  	 margin: 0 auto;
  	 height: 200px;
 }
-.columns1{
+.columns1 {
 	width: 300px;
 	float: left;
 
 }
-.columns2{
+.columns2 {
 	margin-left: 25px;
 	width: 300px;
 	float: left;
 
 }
-.columns3{
+.columns3 {
 	width: 300px;
 	float: right;
 
 }
-.columns-bottom{
+.columns-bottom {
 	margin-top: 20px;
 }
-.bottitle{
+.bottitle {
 	font: 16px 'OpenSans-Bold', sans-serif;
 	color: #5c5c5c;
 	margin-bottom;
 	margin-bottom: 15px;
 }
-.subtitle{
+.subtitle {
 	font: 13px 'OpenSans', sans-serif;
 	color: #75cec2;
 }
-.bottomcontent{
+.bottomcontent {
 	margin-top: 28px;
 	font: 14px 'OpenSans', sans-serif;
 	color: #5c5c5c;
 	line-height: 28px;
 	padding-bottom: 50px;
 }
-#footer{
+#footer {
 	width: 1050px;
 	background-color: #393939;
 	height: auto;
 	overflow: auto;
 	margin: 0 auto;
 }
-.firstcolumn{
+.firstcolumn {
 	width: 300px;
 	float: left;
 }
-.twelvecolumn{
+.twelvecolumn {
 	margin-left: 25px;
 	width: 300px;
 	float: left;
 }
-.thirdcolumn{
+.thirdcolumn {
 	width: 300px;
 	float:right;
 }
-#footer h5{
+#footer h5 {
 	font: 16px 'OpenSans-Bold', sans-serif;
 	color: white;
 	text-transform: uppercase;
 }
-.topsection{
+.topsection {
 	margin-top: 60px;
 	font: 14px/24px 'OpenSans', sans-serif;
 	color: #b4b4b4;
 }
-.contacts>p{
+.contacts>p {
 	margin-top: 13px;
 	margin-left: 15px;
 }
-.topsection p{
+.topsection p {
 	margin-top: 25px;
 	margin-bottom: 35px;
 }
-.contic{
+.contic {
 	float: left;
 }
-.place img{
+.place img {
  	margin-top: 5px;
 }
-.place span{
+.place span {
 	margin-left: 10px;
 }
-.phone img{
+.phone img {
  margin-top: 5px;
 }
-.phone span{
+.phone span {
 	margin-left: 10px;
 	
 }
-.mail img{
+.mail img {
  margin-top: 8px;
 }
-.mail span{
+.mail span {
 	margin-left: 10px;
 }
-.contacts .place p{
+.contacts .place p {
 	margin-bottom: 0;
 	margin-top: 0;
 	margin-left: 20px;
 	text-align:left;
 }
-.place{
+.place {
 	height: 52px;
 }
-.firstcolumn{
+.firstcolumn {
 	padding-right: 30px;
 }
-.twelvecolumn{
+.twelvecolumn {
 	padding-right: 35px;
 }
-.thirdcolumn{
+.thirdcolumn {
 	padding-right: 40px;
 }
-.thirdcolumn p{
+.thirdcolumn p {
 	margin: 0;
 	margin-top: 20px;
 }
-.date{
+.date {
 	margin-top: 0;
 }
 
-time{
+time {
 	 font: 12px 'OpenSans', sans-serif;
 	 color: #7b7b7b;
 }
-.botsection{
+.botsection {
 	width: 1050px;
 	height: auto;
 	overflow: auto;
@@ -406,7 +406,7 @@ time{
 	padding: 10px;
 	background: #333333;
 }
-.botsection p{
+.botsection p {
 	padding: 33px 0;
 	font: 14px 'OpenSans', sans-serif;
 	color: #d2d2d2;
